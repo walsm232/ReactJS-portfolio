@@ -1,9 +1,10 @@
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css"
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <h2> ReactJS Portfolio </h2>
+    <Navbar />
   );
 }
 
