@@ -7,7 +7,8 @@ import Header from "./components/Header";
 function App() {
   return (
     <>
-      <Particles 
+      <Particles
+        className="particles-canvas" 
         params={{
           particles: {
             number: {
@@ -20,7 +21,8 @@ function App() {
             shape: {
               type: "circle",
               stroke: {
-                width: 6,
+                width: 8,
+                color: "#340DF6",
               }
             }
           }

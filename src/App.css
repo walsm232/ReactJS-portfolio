@@ -129,7 +129,12 @@ nav ul li {
 /**************** HEADER TYPED TEXT ****************/
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-blue);
+  color: #15f503;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   z-index: 2;
 }
 
