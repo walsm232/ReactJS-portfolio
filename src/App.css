@@ -123,6 +123,7 @@ nav ul li {
 
 .main-info h1 {
   color: var(--primary-white);
+  padding-top: 5px;
   text-transform: uppercase;
 }
 
@@ -168,7 +169,8 @@ nav ul li {
   z-index: 1;
 }
 
-/*@media(max-width: 768px) {
+/* This was causing issues with the particles displaying on mobile devices so it has been commented out for now
+@media(max-width: 768px) {
   .particles-canvas {
     display: none;
   }
