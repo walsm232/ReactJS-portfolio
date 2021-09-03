@@ -50,6 +50,10 @@ body {
 }
 
 /************************************  NAVBAR  ******************************************/
+nav {
+  z-index: 2;
+}
+
 .logo {
   width: 3.75rem;
 }
@@ -98,6 +102,10 @@ nav ul li {
   height: 90vh;
 }
 
+.headshot {
+  z-index: 2;
+}
+
 .main-info {
   display: flex;
   position: absolute;
@@ -110,6 +118,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: "Roboto Condensed" sans-serif;
+  z-index: 1;
 }
 
 .main-info h1 {
@@ -121,10 +130,40 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: var(--primary-blue);
+  z-index: 2;
+}
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
 }
 
 /**************** HEADER MAIN OFFER BUTTON ****************/
 .btn-main-offer {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   margin: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none !important;
+  background-color: #FD7E14 !important;
+  color: var(--primary-white) !important;
+  transition: .2s ease-in-out !important;
+}
+
+/**************** JS PARTICLES ****************/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
 }
