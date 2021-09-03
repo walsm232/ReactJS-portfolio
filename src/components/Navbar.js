@@ -4,6 +4,7 @@ import logo from "../logo.gif";
 /* React FontAwesome Imports */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faMedium, faLinkedIn, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
     return (
@@ -13,8 +14,8 @@ const Navbar = () => {
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={ faBars } style={{ color: "#FFF" }}/>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ms-auto">
+                <div className="collapse navbar-collapse justify-content-between align-items-center w-100" id="navbarSupportedContent">
+                    <ul className="navbar-nav mx-auto text-md-center text-left">
                         <li className="nav-item active">
                             <a className="nav-link" aria-current="page" href="#">Home</a>
                         </li>
@@ -30,6 +31,13 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="#">Contact</a>
                         </li>
+                    </ul>
+                    <ul className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
+                        <div className="brand-icons">
+                            <a href="https://github.com/walsm232/"><FontAwesomeIcon icon={ faGithub } size="2x" style={{ color: "#FFF" }}/></a><span class="ms-2"></span> 
+                            <a href="https://www.linkedin.com/in/michael-walsh-it/"><FontAwesomeIcon icon={ faLinkedin } size="2x" style={{ color: "#FFF" }}/></a><span class="ms-2"></span> 
+                            <a href="https://michaelwalshh.medium.com/"><FontAwesomeIcon icon={ faMedium } size="2x" style={{ color: "#FFF" }}/></a><span class="ms-2"></span> 
+                        </div>
                     </ul>
                 </div>
             </div>
