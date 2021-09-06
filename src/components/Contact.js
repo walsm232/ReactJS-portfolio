@@ -7,7 +7,7 @@ const Contact = () => {
     const templateID = "template_ID";
     const userID = "user_5uD5HTTsijzRezC1itpH8";
 
-    const sendEmail = (e) => {
+    function sendEmail(e) {
         e.preventDefault();
     
         emailjs.sendForm(serviceID, templateID, e.target, userID)
@@ -16,13 +16,14 @@ const Contact = () => {
           }, (error) => {
               console.log(error.text);
           });
-    }
+      }
 
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <div className="text-center">
                 <h1> Contact Me </h1>
-                <p> Please fill out the form below to contact me and I will get back to you as soon as possible! </p>
+                <p> Please fill out the form below to contact me and I will get back to you as soon as possible. </p>
+                <p> You can also contact me directly through any of my socials! </p>
             </div>
             <div className="container">
                 <form onSubmit={sendEmail}>

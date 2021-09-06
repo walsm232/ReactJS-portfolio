@@ -376,7 +376,7 @@ nav ul li {
 
 .contact-btn:hover {
   text-decoration: none !important;
-  background-color: #5CB85C !important;
+  background-color: #5BC0DE !important;
   color: var(--primary-white) !important;
   transition: .2s ease-in-out !important;
 }
