@@ -1,12 +1,10 @@
 import React from "react";
 import Typed from "react-typed"
-import headshot from "../headshot.png";
 
 const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <img className="headshot" src={headshot} alt="Michael Walsh Headshot Image" width="200px" height="200px"/>
                 <h1>Michael Walsh</h1>
                 <Typed 
                     className="typed-text"
