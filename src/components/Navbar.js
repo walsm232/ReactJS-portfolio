@@ -4,7 +4,7 @@ import logo from "../logo.gif";
 /* React FontAwesome Imports */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faMedium, faLinkedIn, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faMedium, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
     return (
