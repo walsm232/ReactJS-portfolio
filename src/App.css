@@ -45,7 +45,7 @@
   --primary-grey: #CCD1D9;
   --primary-dark-grey: #666666;
   --primary-blue: #340DF6;
-  --primary-dark: rgb(255, 255, 255, 0);
+  --primary-dark: #292B2C;
   --secondary-dark: rgb(52, 58, 64);
   --primary-light-blue: #2C8EF0;
 }
@@ -240,6 +240,7 @@ nav ul li {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  transition: 0.3s ease-in-out;
 }
 
 .skills .box:hover {
@@ -347,5 +348,101 @@ nav ul li {
     float: none;
     width: 100%;
     direction: ltr;
+  }
+}
+
+/************************************  CONTACT  ******************************************/
+.contact {
+  background: var(--secondary-dark);
+  padding: 3rem 0;
+}
+
+.contact h1 {
+  color: #F0AD4E;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contact p {
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+}
+
+.contact-btn {
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  margin: 1rem 0 0 0;
+  width: 40% !important;
+}
+
+.contact-btn:hover {
+  text-decoration: none !important;
+  background-color: #5CB85C !important;
+  color: var(--primary-white) !important;
+  transition: .2s ease-in-out !important;
+}
+
+/***************************  CONTACT INPUTS  ***************************/
+.contact input, .contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  background: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  border-radius: 0;
+  color: #F0AD4E;
+  outline: 0 !important;
+  box-shadow: none !important;
+  top: 0;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contact .container {
+  padding: 4rem 0;
+}
+
+.contact input:focus, .contact textarea:focus {
+  background: transparent;
+  color: #F0AD4E;
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+}
+
+.contact textarea {
+  height: 12.2rem !important;
+}
+
+.line {
+  position: relative;
+  top: -0.83rem;
+  width: 0;
+  height: 0.125rem;
+  background: #340DF6;
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+/**************** MEDIA ****************/
+@media(max-width: 768px) {
+  .contact {
+    overflow-x: hidden;
+  }
+  .contact .container {
+    padding: 0 1rem;
+  }
+  .contact p {
+    padding: 0 0.4rem;
   }
 }
