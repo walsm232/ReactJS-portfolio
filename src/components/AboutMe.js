@@ -13,10 +13,9 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="aboutme-heading"> About Me </h1>
                     <p> 
-                        Hello! I am Michael. I have been writing code from the age of 13 after attending my first CoderDojo class in Waterford, Ireland. I am aiming to become a Full Stack Developer with the hopes of gaining experience as a Front-end Developer, Backend Developer, and a Tester.
+                        Hello! I am Michael. I have been passionate about technology from a young age, having started writing code from the age of 13 after attending my first CoderDojo class in Waterford, Ireland.
                         <hr/>
-                        I received a First Class Honours (1.1) grade in my Bachelor of Science degree in Enterprise Computing from Dublin City University, finishing 3rd in my class.
-                        At the moment my main tools and technologies are: Python, Django, Bash / Shell, HTML, CSS, Javascript, Bootstrap, MySQL, NoSQL (MongoDB), AWS, and Google Cloud. I also have some light experience with ReactJS, Selenium WebDriver, Docker, Jenkins, and Kubernetes.
+                        I am aiming to become a Full Stack Developer with the hopes of gaining experience as a Front-end Developer, Backend Developer, and a Tester. I received a First Class Honours (1.1) grade in my Bachelor of Science degree in Enterprise Computing from Dublin City University, ranking 3rd in my class.
                     </p>
                 </div>
             </div>
