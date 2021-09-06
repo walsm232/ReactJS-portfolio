@@ -27,7 +27,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> May 2021 </h3>
-                        <p> I finished my undergraduate degree in Enterprise Computing and graduated from Dublin City University with a First Class Honours (1.1) grade. I almost managed to rank 3rd overall in my class for my results. </p>
+                        <p> I finished my undergraduate degree in Enterprise Computing and graduated from Dublin City University with a First Class Honours (1.1) grade. I also managed to rank 3rd overall in my class for my results. </p>
                     </div>
                 </div>
                 {/* - */}
