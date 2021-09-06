@@ -16,4 +16,5 @@
   - ReactJS
   - Bootstrap 5.0
   - FontAwesome
-  - Roboto Condensed (Google Fonts)
+  - Google Fonts (Roboto Condensed)
+  - EmailJS
