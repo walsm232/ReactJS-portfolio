@@ -18,19 +18,19 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-between align-items-center w-100" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto text-md-center text-left">
                         <li className="nav-item active">
-                            <Link smooth={true} to="home" className="nav-link" aria-current="page" href="home"> Home</Link>
+                            <Link smooth={true} to="home" className="nav-link" aria-current="page" id="home" href="home"> Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="about" offset={-80} className="nav-link" aria-current="page" href="about"> About Me </Link>
+                            <Link smooth={true} to="about" offset={-80} className="nav-link" aria-current="page" id="about" href="about"> About Me </Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="skills" offset={-80} className="nav-link" href="skills"> Skills </Link>
+                            <Link smooth={true} to="skills" offset={-80} className="nav-link" id="skills" href="skills"> Skills </Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="experience" offset={-60} className="nav-link" href="experience"> Experience </Link>
+                            <Link smooth={true} to="experience" offset={-60} className="nav-link" id="experience" href="experience"> Experience </Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="contact" className="nav-link" href="contact"> Contact </Link>
+                            <Link smooth={true} to="contact" className="nav-link" id="contact" href="contact"> Contact </Link>
                         </li>
                     </ul>
                     <ul className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
