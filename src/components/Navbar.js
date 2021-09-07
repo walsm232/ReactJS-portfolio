@@ -11,26 +11,26 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
             <div className="container">
-                <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="Michael Walsh Portfolio Logo"/></a>
+                <a className="navbar-brand" href="home"><img className="logo" src={logo} alt="Michael Walsh Portfolio Logo"/></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={ faBars } style={{ color: "#FFF" }}/>
                 </button>
                 <div className="collapse navbar-collapse justify-content-between align-items-center w-100" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto text-md-center text-left">
                         <li className="nav-item active">
-                            <Link smooth={true} to="home" className="nav-link" aria-current="page" href=""> Home</Link>
+                            <Link smooth={true} to="home" className="nav-link" aria-current="page" href="home"> Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="about" offset={-80} className="nav-link" aria-current="page" href=""> About Me </Link>
+                            <Link smooth={true} to="about" offset={-80} className="nav-link" aria-current="page" href="about"> About Me </Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="skills" offset={-80} className="nav-link" href=""> Skills </Link>
+                            <Link smooth={true} to="skills" offset={-80} className="nav-link" href="skills"> Skills </Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="experience" offset={-60} className="nav-link" href=""> Experience </Link>
+                            <Link smooth={true} to="experience" offset={-60} className="nav-link" href="experience"> Experience </Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="contact" className="nav-link" href=""> Contact </Link>
+                            <Link smooth={true} to="contact" className="nav-link" href="contact"> Contact </Link>
                         </li>
                     </ul>
                     <ul className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
