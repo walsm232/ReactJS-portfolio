@@ -15,7 +15,7 @@ const AboutMe = () => {
                     <p> 
                         Hello! I am Michael. I'm a 22 year old Software Engineer based in Ireland. I have been passionate about technology from a young age, having first started writing code from the age of 13 after attending a CoderDojo class in Waterford, Ireland.
                         <hr/>
-                        I am aiming to become a Full Stack Developer with the hopes of gaining experience as a Frontend Developer, Backend Developer, and a Tester. I received a First Class Honours (1.1) grade in my Bachelor of Science degree in Enterprise Computing from Dublin City University, ranking 3rd in my class.
+                        I am aiming to become a well-rounded engineer with the hopes of gaining experience in technical roles. I received a First Class Honours (1.1) grade in my Bachelor of Science degree in Enterprise Computing from Dublin City University, ranking 3rd in my class.
                     </p>
                 </div>
             </div>
