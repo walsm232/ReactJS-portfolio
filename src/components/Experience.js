@@ -35,7 +35,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> June 2020 - August 2021 </h3>
-                        <p> I completed a 3 month Project Management internship at Guidewire Software in Dublin. I got to solely complete the migration of project budget requesting and financial forecasting from Excel to Smartsheet. This helped achieve the department goal of 85%+ monthly budget accuracy and 95%+ quarterly budget accuracy. I also assisted with the management of a number of projects at different stages of the development lifecycle. </p>
+                        <p> I completed a 3 month Project Management internship at Guidewire Software in Dublin. I had the opportunity to work on a number of different BizTech initiatives and received outstanding feedback on completion of my internship from my manager. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -43,7 +43,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> September 2021 </h3>
-                        <p> I am starting a new position at Workday as an Associate Software Development Engineer in Test (SDET). </p>
+                        <p> I started a new position at Workday as an Associate Software Development Engineer in Test (SDET) as part of the Systems Verification Testing (SVT) team. </p>
                     </div>
                 </div>
             </div>
