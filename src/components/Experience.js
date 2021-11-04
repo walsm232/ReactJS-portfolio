@@ -19,7 +19,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> January 2020 - September 2020 </h3>
-                        <p> I completed an 8 month Quality Assurance Test internship at Irish Life in Dublin. I had the opportunity to refactor automated test scripts with Selenium WebDriver which were written in C#. I also got to work on performing API and performance tests on a new customer service desktop application. </p>
+                        <p> I completed an 8 month Quality Assurance Test internship at Irish Life in Dublin. I worked on a number of different test initiatives in the QA department such as API testing with SoapUI, unit testing, and test automation with Selenium. I received excellent feedback from my manager on completion of this placement. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -43,7 +43,15 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> September 2021 </h3>
-                        <p> I started a new position at Workday as an Associate Software Development Engineer in Test (SDET) as part of the Systems Verification Testing (SVT) team. </p>
+                        <p> I started a new position at Workday as an Associate Software Development Engineer in Test (SDET) as part of the Systems Verification Testing (SVT) team. This falls under the Infrastructure and Production Engineering (IPE) organization. </p>
+                    </div>
+                </div>
+                {/* - */}
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3> October 2021 </h3>
+                        <p> I became a certified Amazon Web Services (AWS) Cloud Practitioner, achieving 832 / 1,000 in my examination. </p>
                     </div>
                 </div>
             </div>
