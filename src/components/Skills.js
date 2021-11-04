@@ -13,7 +13,7 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faReact} size="3x"/> </div>
                                 <h3> Frontend Development </h3>
-                                <p> ReactJS, HTML, CSS, Javascript, Bootstrap, and jQuery </p>
+                                <p> React, HTML, CSS, Javascript, Bootstrap, and jQuery </p>
                             </div>
                         </div>
                         {/* - */}
@@ -29,7 +29,7 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faLaptopCode} size="3x"/> </div>
                                 <h3> Automation and QA Testing </h3>
-                                <p> Selenium WebDriver, ReadyAPI, and Postman </p>
+                                <p> Selenium WebDriver, ReadyAPI, Postman, Unit Testing, Performance Testing, and Chaos Engineering </p>
                             </div>
                         </div>
                         {/* - */}
@@ -53,7 +53,7 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faDocker} size="3x"/> </div>
                                 <h3> Containerization and CI/CD </h3>
-                                <p> Docker, Jenkins, and Kubernetes </p>
+                                <p> Docker, Jenkins, Bamboo, and Kubernetes </p>
                             </div>
                         </div>
                     </div>
