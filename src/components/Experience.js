@@ -43,7 +43,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> September 2021 </h3>
-                        <p> I started a new position at Workday as an Associate Software Development Engineer in Test (SDET) as part of the Systems Verification Testing (SVT) team. This falls under the Infrastructure and Production Engineering (IPE) organization. </p>
+                        <p> I started a new position at Workday as an Associate Software Development Engineer in Test as part of the Systems Verification Testing (SVT) team. This falls under the Infrastructure and Production Engineering organization. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -51,7 +51,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> October 2021 </h3>
-                        <p> I became a certified Amazon Web Services (AWS) Cloud Practitioner, achieving 832 / 1,000 in my examination. </p>
+                        <p> I passed my exam and became a certified Amazon Web Services (AWS) Cloud Practitioner. </p>
                     </div>
                 </div>
             </div>
