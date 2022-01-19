@@ -29,7 +29,7 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faLaptopCode} size="3x"/> </div>
                                 <h3> Automation and QA Testing </h3>
-                                <p> Selenium WebDriver, ReadyAPI, Postman, Unit Testing, Performance Testing, and Chaos Engineering </p>
+                                <p> Selenium, SoapUI, Postman, Unit and Integration Testing (Pytest), Performance Testing (Locust), and Chaos Engineering (Chaos Toolkit) </p>
                             </div>
                         </div>
                         {/* - */}
@@ -44,16 +44,16 @@ const Skills = () => {
                         <div className="col-md-4 col-sm-6">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faDatabase} size="3x"/> </div>
-                                <h3> Databases </h3>
-                                <p> MySQL, SQL Server, NoSQL (MongoDB), and SQLite </p>
+                                <h3> Databases and Storage </h3>
+                                <p> MySQL, SQL Server, NoSQL (MongoDB), SQLite, GCP Cloud Storage, and AWS S3  </p>
                             </div>
                         </div>
                         {/* - */}
                         <div className="col-md-4 col-sm-6">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faDocker} size="3x"/> </div>
-                                <h3> Containerization and CI/CD </h3>
-                                <p> Docker, Jenkins, Bamboo, and Kubernetes </p>
+                                <h3> DevTools </h3>
+                                <p> Kubernetes, Docker, Jenkins, Bamboo, Helm, and Git </p>
                             </div>
                         </div>
                     </div>
