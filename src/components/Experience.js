@@ -51,7 +51,15 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> October 2021 </h3>
-                        <p> I passed my exam and became a certified Amazon Web Services (AWS) Cloud Practitioner. </p>
+                        <p> I passed the Amazon Web Services (AWS) Cloud Practitioner exam and got certified. </p>
+                    </div>
+                </div>
+                {/* - */}
+                <div className="timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3> February 2022 </h3>
+                        <p> I passed the Google Cloud Platform (GCP) Associate Cloud Engineer exam and got certified. </p>
                     </div>
                 </div>
             </div>
