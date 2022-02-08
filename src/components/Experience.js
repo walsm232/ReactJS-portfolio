@@ -43,7 +43,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> September 2021 </h3>
-                        <p> I started a new position at Workday as an Associate Software Development Engineer in Test as part of the Systems Verification Testing (SVT) team. This falls under the Infrastructure and Production Engineering organization. </p>
+                        <p> I started a new position at Workday as an Associate Software Development Engineer in Test (SDET) as part of the Systems Verification Testing team. This falls under the Platform and Cloud Engineering organization. </p>
                     </div>
                 </div>
                 {/* - */}
