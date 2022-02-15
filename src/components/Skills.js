@@ -45,7 +45,7 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faDatabase} size="3x"/> </div>
                                 <h3> Databases and Storage </h3>
-                                <p> MySQL, SQL Server, NoSQL (MongoDB), SQLite, GCP Cloud Storage, and AWS S3  </p>
+                                <p> MySQL, SQL Server, NoSQL (MongoDB), and SQLite  </p>
                             </div>
                         </div>
                         {/* - */}
