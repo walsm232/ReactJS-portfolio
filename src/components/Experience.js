@@ -62,6 +62,14 @@ const Experience = () => {
                         <p> I passed the Google Cloud Platform (GCP) Associate Cloud Engineer exam and got certified. </p>
                     </div>
                 </div>
+                {/* - */}
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3> April 2022 </h3>
+                        <p> I gave a presentation on the Google Cloud Platform (GCP) Associate Cloud Engineer exam at Workday's internal tech conference. 150 Workday employees attended my talk which discussed areas such as GCP product and service offerings, study materials, exam tips, and cloud certification communities. </p>
+                    </div>
+                </div>
             </div>
         </div>
     )
