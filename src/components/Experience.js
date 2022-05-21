@@ -19,7 +19,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> January 2020 - September 2020 </h3>
-                        <p> I completed an 8 month Quality Assurance Test internship at Irish Life in Dublin. I worked on a number of different test initiatives in the QA department such as API testing with SoapUI, unit testing, and test automation with Selenium. I received excellent feedback from my manager on completion of this placement. </p>
+                        <p> I completed an 8 month Quality Assurance Engineer internship at Irish Life in Dublin. I worked on a number of different test initiatives in the QA department such as API testing with SoapUI, unit testing, and test automation with Selenium. I received excellent feedback from my manager on completion of this placement. </p>
                     </div>
                 </div>
                 {/* - */}
