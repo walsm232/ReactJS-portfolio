@@ -67,7 +67,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> April 2022 </h3>
-                        <p> I gave a presentation on the Google Cloud Platform (GCP) Associate Cloud Engineer certification at Workday's internal tech conference. 150 Workday employees attended my talk which discussed areas such as GCP product and service offerings, study materials, exam tips, and cloud certification communities. </p>
+                        <p> I gave a presentation on the Google Cloud Platform (GCP) Associate Cloud Engineer certification at Workday's yearly internal tech conference. 150 Workday employees attended my talk which discussed areas such as GCP product and service offerings, study materials, exam tips, and cloud certification communities. </p>
                     </div>
                 </div>
             </div>
