@@ -11,7 +11,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> September 2017 </h3>
-                        <p> I began studying a Bachelor of Science degree in Enterprise Computing at Dublin City University. This was a 4 year degree which included a fantastic balance of both business and technical modules. This enabled me to develop a unique blend of technical aptitude, business savvy, and interpersonal skills. </p>
+                        <p> I began studying a Bachelor of Science degree (Level 8) in Enterprise Computing at Dublin City University. This was a 4 year degree which included a fantastic balance of both business and technical modules. This enabled me to develop a unique blend of technical aptitude, business savvy, and interpersonal skills. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -68,6 +68,14 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3> April 2022 </h3>
                         <p> I gave a presentation on the Google Cloud Platform (GCP) Associate Cloud Engineer certification at Workday's yearly internal tech conference. 150 Workday employees attended my talk which discussed areas such as GCP product and service offerings, study materials, exam tips, and cloud certification communities. </p>
+                    </div>
+                </div>
+                {/* - */}
+                <div className="timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3> September 2022 </h3>
+                        <p> I began studying a Postgraduate Diploma (Level 9) in Cloud Computing and Software Development at National University of Ireland Galway. </p>
                     </div>
                 </div>
             </div>
