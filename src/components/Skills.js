@@ -12,7 +12,7 @@ const Skills = () => {
                         <div className="col-md-4 col-sm-6">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faReact} size="3x"/> </div>
-                                <h3> Frontend Development </h3>
+                                <h3> Frontend </h3>
                                 <p> React, HTML, CSS, Javascript, Bootstrap, and jQuery </p>
                             </div>
                         </div>
@@ -20,7 +20,7 @@ const Skills = () => {
                         <div className="col-md-4 col-sm-6">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faPython} size="3x"/> </div>
-                                <h3> Backend Development and Scripting </h3>
+                                <h3> Backend and Scripting </h3>
                                 <p> Python, Java, Bash, Django, and Flask </p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const Skills = () => {
                         <div className="col-md-4 col-sm-6">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faDocker} size="3x"/> </div>
-                                <h3> CI/CD, DevTools, and Observability </h3>
+                                <h3> DevTools and Observability </h3>
                                 <p> Kubernetes, Docker, Jenkins, Bamboo, Helm, ArgoCD, Grafana, Prometheus, and Git </p>
                             </div>
                         </div>
