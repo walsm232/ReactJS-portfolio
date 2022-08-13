@@ -20,16 +20,16 @@ const Skills = () => {
                         <div className="col-md-4 col-sm-6">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faPython} size="3x"/> </div>
-                                <h3> Backend Development </h3>
-                                <p> Python and Django </p>
+                                <h3> Backend Development and Scripting </h3>
+                                <p> Python, Java, Bash, Django, and Flask </p>
                             </div>
                         </div>
                         {/* - */}
                         <div className="col-md-4 col-sm-6">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faLaptopCode} size="3x"/> </div>
-                                <h3> Automation and QA Testing </h3>
-                                <p> Selenium, SoapUI, Postman, Unit and Integration Testing (Pytest), Performance Testing (Locust), and Chaos Engineering (Chaos Toolkit) </p>
+                                <h3> Testing and Automation </h3>
+                                <p> Pytest, Pytest-BDD, Selenium, Locust, Chaos Toolkit, SoapUI, and Postman </p>
                             </div>
                         </div>
                         {/* - */}
@@ -52,8 +52,8 @@ const Skills = () => {
                         <div className="col-md-4 col-sm-6">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faDocker} size="3x"/> </div>
-                                <h3> DevTools </h3>
-                                <p> Kubernetes, Docker, Jenkins, Bamboo, Helm, and Git </p>
+                                <h3> CI/CD, DevTools, and Observability </h3>
+                                <p> Kubernetes, Docker, Jenkins, Bamboo, Helm, ArgoCD, Grafana, Prometheus, and Git </p>
                             </div>
                         </div>
                     </div>
