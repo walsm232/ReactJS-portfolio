@@ -43,7 +43,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> September 2021 </h3>
-                        <p> I started a new position at Workday as an Associate Software Development Engineer in Test (SDET) as part of the Systems Verification Testing team. This falls under the Platform and Cloud Engineering organization. </p>
+                        <p> I started a new position at Workday as an Associate Software Development Engineer (SDE) as part of the Continuous Systems Verification team. This falls under the Platform and Cloud Engineering organization. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -75,7 +75,15 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> September 2022 </h3>
-                        <p> I began studying a Postgraduate Diploma (Level 9) in Cloud Computing and Software Development at National University of Ireland Galway. </p>
+                        <p> I began studying a Postgraduate Diploma (Level 9) in Cloud Computing and Software Development at University of Galway. </p>
+                    </div>
+                </div>
+                {/* - */}
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3> October 2022 </h3>
+                        <p> I was promoted to Senior Associate Software Development Engineer at Workday. </p>
                     </div>
                 </div>
             </div>
