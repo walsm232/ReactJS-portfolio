@@ -83,7 +83,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> October 2022 </h3>
-                        <p> I was promoted to Senior Associate (P2) Software Development Engineer at Workday. </p>
+                        <p> I was promoted to Sr. Associate (P2) Software Development Engineer at Workday. </p>
                     </div>
                 </div>
             </div>
