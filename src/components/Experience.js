@@ -96,7 +96,6 @@ const Experience = () => {
                 </div>
             </div>
         </div>
-    https://www.linkedin.com/posts/michael-walsh-it_kubernetes-workday-meetup-activity-7049297228225474560-pY-h?utm_source=share&utm_medium=member_desktop
     )
 }
 
