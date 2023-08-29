@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "../logo.gif";
+import logo from "../static/navbar/logo.gif";
 import {Link} from "react-scroll";
 
 /* React FontAwesome Imports */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faMedium, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faMedium, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
     return (
@@ -29,15 +29,13 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link smooth={true} to="experience" offset={-60} className="nav-link"> Experience </Link>
                         </li>
-                        <li className="nav-item">
-                            <Link smooth={true} to="contact" className="nav-link"> Contact </Link>
-                        </li>
                     </ul>
                     <ul className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
                         <div className="brand-icons">
                             <a href="https://github.com/walsm232/"><FontAwesomeIcon icon={ faGithub } size="2x" style={{ color: "#FFF" }}/></a> <span class="ms-2"></span> 
                             <a href="https://www.linkedin.com/in/michael-walsh-it/"><FontAwesomeIcon icon={ faLinkedin } size="2x" style={{ color: "#FFF" }}/></a> <span class="ms-2"></span> 
-                            <a href="https://michaelwalshh.medium.com/"><FontAwesomeIcon icon={ faMedium } size="2x" style={{ color: "#FFF" }}/></a> <span class="ms-2"></span> 
+                            <a href="https://michaelwalshh.medium.com/"><FontAwesomeIcon icon={ faMedium } size="2x" style={{ color: "#FFF" }}/></a> <span class="ms-2"></span>
+                            <a href="https://www.instagram.com/mw_coding/"><FontAwesomeIcon icon={ faInstagram } size="2x" style={{ color: "#FFF" }}/></a> <span class="ms-2"></span> 
                         </div>
                     </ul>
                 </div>
