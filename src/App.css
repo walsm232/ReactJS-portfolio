@@ -101,7 +101,7 @@ nav ul li {
 /************************************  HEADER  ******************************************/
 .header-wrapper {
   position: relative;
-  background: url(header-image.gif) no-repeat;
+  background: url(static/header/header-image.gif) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -134,7 +134,7 @@ nav ul li {
 /**************** HEADER TYPED TEXT ****************/
 .typed-text {
   font-size: 1.5rem;
-  color: #15f503;
+  color: var(--primary-blue);
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
@@ -305,6 +305,10 @@ nav ul li {
 .timeline-block-left {
   float: left;
   direction: rtl;
+}
+
+.timeline-image {
+  border: 3px solid var(--primary-blue);;
 }
 
 .marker {

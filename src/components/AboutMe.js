@@ -1,5 +1,5 @@
 import React from "react";
-import Headshot from "../headshot.png";
+import Headshot from "../static/aboutme/headshot.png";
 
 const AboutMe = () => {
     return (
@@ -17,7 +17,7 @@ const AboutMe = () => {
                         <hr/>
                     </p>
                     <p>
-                        I'm currently working as a Software Development Engineer with Workday, where I have 2 years experience delivering cloud-native solutions for customers.
+                        👨‍💻 I'm currently working as a Software Development Engineer, with a focus on Kubernetes and just about everything that encompasses the cloud-native ecosystem.
                     </p>
                 </div>
             </div>
