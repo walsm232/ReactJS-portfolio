@@ -7,6 +7,9 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 
+// Adding test comment for AWS Amplify
+
+
 function App() {
   return (
     <>
