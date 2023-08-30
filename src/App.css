@@ -293,8 +293,6 @@ nav ul li {
 
 .timeline-block {
   width: calc(50% + 0.5rem);
-  max-width: 100%;
-  max-height: 100%;
   display: flex;
   justify-content: space-between;
   clear: both;
@@ -310,7 +308,9 @@ nav ul li {
 }
 
 .timeline-image {
-  border: 3px solid var(--primary-blue);;
+  border: 3px solid var(--primary-blue);
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .marker {
