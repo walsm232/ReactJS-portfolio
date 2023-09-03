@@ -3,7 +3,6 @@
 
 <hr>
 <h2> <div align="center"> PC / Desktop View </div> </h2>
-<div align="center"> <img src="src/header-page-screenshot.PNG"> </div>
 
 <hr>
 
