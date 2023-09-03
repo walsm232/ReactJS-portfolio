@@ -3,7 +3,12 @@
 
 <hr>
 <h2> <div align="center"> PC / Desktop View </div> </h2>
-<div align="center"> <img src="src/header-page-screenshot.PNG"> </div>
+<div align="center"> <img src="src/header-page-desktop.PNG"> </div>
+
+<hr>
+
+<h2> <div align="center"> Mobile View </div> </h2>
+<div align="center"> <img src="src/header-page-mobile.PNG"> </div>
 
 <hr>
 
