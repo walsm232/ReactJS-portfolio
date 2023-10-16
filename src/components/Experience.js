@@ -106,7 +106,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> April 2023 </h3>
-                        <p> 🎯 I became co-organizer of the Dublin Kubernetes Meetup group which is built around a community of 500 members. We held our first event of 2023 at the Workday Dublin office which was a huge success with 100+ attendees. </p>
+                        <p> 🎯 I became co-organizer of the Dublin Kubernetes Meetup group which is built around a community of 600+ members. We held our first event of 2023 at the Workday Dublin office which was a huge success with 100+ attendees. </p>
                         <img className="timeline-image" src={KubernetesMeetup} alt="Dublin Kubernetes 1st Meetup of 2023"/>
                     </div>
                 </div>
@@ -114,7 +114,8 @@ const Experience = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3> TBD... </h3>
+                        <h3> October 2023 </h3>
+                        <p> 📈 I was promoted to Software Development Engineer (P3) at Workday, which is known as Mid / Career level. </p>
                     </div>
                 </div>
             </div>

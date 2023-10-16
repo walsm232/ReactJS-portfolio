@@ -21,15 +21,15 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faPython} size="3x"/> </div>
                                 <h3> Backend and Scripting </h3>
-                                <p> Python, Java, Go, Bash, Django, and Flask </p>
+                                <p> Python, Java, Go, Bash, Django, Spring Boot, and Flask </p>
                             </div>
                         </div>
                         {/* - */}
                         <div className="col-md-4 col-sm-6">
                             <div className="box">
-                                <div className="circle"> <FontAwesomeIcon className="icon" icon={faLaptopCode} size="3x"/> </div>
-                                <h3> Testing and Automation </h3>
-                                <p> Pytest, Selenium, Locust, Chaos Toolkit, SoapUI, and Postman </p>
+                                <div className="circle"> <FontAwesomeIcon className="icon" icon={faDocker} size="3x"/> </div>
+                                <h3> Containers and Orchestration </h3>
+                                <p> Kubernetes, Docker, ECS, Fargate, containerd </p>
                             </div>
                         </div>
                         {/* - */}
@@ -45,15 +45,15 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faDatabase} size="3x"/> </div>
                                 <h3> Databases and Storage </h3>
-                                <p> MySQL, SQL Server, NoSQL (MongoDB), and SQLite  </p>
+                                <p> SQL, MongoDB, S3, EBS, and EFS </p>
                             </div>
                         </div>
                         {/* - */}
                         <div className="col-md-4 col-sm-6">
                             <div className="box">
-                                <div className="circle"> <FontAwesomeIcon className="icon" icon={faDocker} size="3x"/> </div>
-                                <h3> DevTools and Observability </h3>
-                                <p> Kubernetes, Docker, Jenkins, Bamboo, Helm, Argo, Grafana, Prometheus, and Git </p>
+                                <div className="circle"> <FontAwesomeIcon className="icon" icon={faLaptopCode} size="3x"/> </div>
+                                <h3> DevTools, Observability and CI/CD </h3>
+                                <p> Git, Jenkins, Argo, Helm, Kustomize, Kibana, Grafana, and Prometheus </p>
                             </div>
                         </div>
                     </div>
