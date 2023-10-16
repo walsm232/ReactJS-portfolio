@@ -115,7 +115,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> October 2023 </h3>
-                        <p> 📈 I was promoted to Software Development Engineer (P3) at Workday, which is known as Mid / Career level. </p>
+                        <p> 📈 I was promoted to Software Development Engineer (P3) which is known as Mid / Career level at Workday. </p>
                     </div>
                 </div>
             </div>
