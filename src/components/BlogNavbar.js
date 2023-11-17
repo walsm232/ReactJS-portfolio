@@ -5,7 +5,7 @@ import {Link as RouterLink} from 'react-router-dom';
 /* React FontAwesome Imports */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faMedium, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faMedium, faLinkedin, faEnvelope, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const BlogNavbar = () => {
     return (
