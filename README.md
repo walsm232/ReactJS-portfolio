@@ -1,5 +1,5 @@
 <h1> <div align="center"> ReactJS Web Portfolio </div> </h1>
-<h3> <div align="center"> https://www.michaelwalsh-portfolio.com/ </div> </h3>
+<h3> <div align="center"> https://www.michael-walsh.dev/ </div> </h3>
 
 <hr>
 <h2> <div align="center"> PC / Desktop View </div> </h2>
