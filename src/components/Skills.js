@@ -29,7 +29,7 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faDocker} size="3x"/> </div>
                                 <h3> Containers and Orchestration </h3>
-                                <p> Kubernetes, Docker, ECS, Fargate, and OCI </p>
+                                <p> Kubernetes, Docker, and ECS </p>
                             </div>
                         </div>
                         {/* - */}
@@ -45,7 +45,7 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faDatabase} size="3x"/> </div>
                                 <h3> Databases and Storage </h3>
-                                <p> SQL, MongoDB, S3, EBS, and EFS </p>
+                                <p> MySQL, MongoDB, and S3 </p>
                             </div>
                         </div>
                         {/* - */}
