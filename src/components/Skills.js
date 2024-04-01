@@ -21,7 +21,7 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faPython} size="3x"/> </div>
                                 <h3> Backend and Scripting </h3>
-                                <p> Python, Java, Go, Bash, Django, Spring Boot, and Flask </p>
+                                <p> Python, Java, Go, Bash, Django, Spring Boot, Flask, MVC, REST, and gRPC </p>
                             </div>
                         </div>
                         {/* - */}
@@ -53,7 +53,7 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faLaptopCode} size="3x"/> </div>
                                 <h3> DevTools, Observability and CI/CD </h3>
-                                <p> Git, Jenkins, Argo, Helm, Kustomize, Kibana, Grafana, and Prometheus </p>
+                                <p> Git, Maven, Poetry, Jenkins, ArgoCD, Helm, Kustomize, Kibana, Grafana, and Prometheus </p>
                             </div>
                         </div>
                     </div>
