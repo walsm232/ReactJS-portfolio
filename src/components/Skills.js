@@ -13,7 +13,7 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="icon" icon={faReact} size="3x"/> </div>
                                 <h3> Frontend </h3>
-                                <p> React, HTML, CSS, Javascript, Bootstrap, and jQuery </p>
+                                <p> React, Node.js, HTML, CSS, Javascript, Bootstrap, and jQuery </p>
                             </div>
                         </div>
                         {/* - */}
