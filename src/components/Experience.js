@@ -56,7 +56,6 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3> October 2021 </h3>
                         <p> 📄 I passed the Amazon Web Services (AWS) Cloud Practitioner exam and got certified <a href="https://www.credly.com/badges/1df11e8f-763e-4e07-8cd9-32a3ab642436"> [Certificate] </a>. </p>
-                        <!-- <img className="timeline-image" src={CCPCertification} alt="Amazon Web Services (AWS) Cloud Practitioner Certification"/> -->
                     </div>
                 </div>
                 {/* - */}
@@ -65,7 +64,6 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3> February 2022 </h3>
                         <p> 📄 I passed the Google Cloud Platform (GCP) Associate Cloud Engineer exam and got certified <a href="https://www.credential.net/61d135ac-0e62-4f02-bb15-b11b1708e94a"> [Certificate] </a>. </p>
-                        <!-- <img className="timeline-image" src={ACECertification} alt="Google Cloud Platform (GCP) Associate Cloud Engineer (ACE) Certification"/> -->
                     </div>
                 </div>
                 {/* - */}
@@ -98,7 +96,6 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3> February 2023 </h3>
                         <p> 📄 I passed the Kubernetes and Cloud Native Associate (KCNA) certification and got certified <a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/abc05936-004e-42fb-a5ed-081418ab2982-michael-walsh-f36f4d75-2885-4907-ae53-31ee4b955e83-certificate.pdf"> [Certificate] </a>. </p>
-                        <!-- <img className="timeline-image" src={KCNACertification} alt="Kubernetes and Cloud Native Associate (KCNA) Certification"/> -->
                     </div>
                 </div>
                 {/* - */}
@@ -107,7 +104,6 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3> April 2023 </h3>
                         <p> 🎯 I became co-organizer of the <a href="https://www.meetup.com/dublin-kubernetes-meetup/"> Kubernetes Dublin Meetup </a> group which is built around a community of 700+ members. We held our first event of 2023 at the Workday Dublin office which was a huge success with 100+ attendees. </p>
-                        <!-- <img className="timeline-image" src={KubernetesMeetup} alt="Dublin Kubernetes 1st Meetup of 2023"/> -->
                     </div>
                 </div>
                 {/* - */}
