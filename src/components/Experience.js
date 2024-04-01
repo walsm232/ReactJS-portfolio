@@ -1,8 +1,4 @@
 import React from "react";
-import KCNACertification from "../static/experience/kcna-certification.png";
-import ACECertification from "../static/experience/ace-certification.png";
-import CCPCertification from "../static/experience/ccp-certification.png";
-import KubernetesMeetup from "../static/experience/kubernetes-meetup.png";
 
 const Experience = () => {
     return (
