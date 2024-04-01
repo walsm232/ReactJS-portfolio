@@ -47,7 +47,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> September 2021 </h3>
-                        <p> 👨‍💻 I started a new position at Workday as an Associate (P1) Software Development Engineer (SDE) as part of the Continuous Systems Verification team. This falls under the Platform and Cloud Engineering organization. </p>
+                        <p> 👨‍💻 I started a new position at Workday as an Associate Software Development Engineer (SDE) as part of the Continuous Verification Frameworks team. This falls under the Platform and Cloud Engineering organization. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -89,7 +89,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> October 2022 </h3>
-                        <p> 📈 I was promoted to Sr. Associate (P2) Software Development Engineer at Workday. </p>
+                        <p> 📈 I was promoted to Sr. Associate Software Development Engineer at Workday. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -106,7 +106,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> April 2023 </h3>
-                        <p> 🎯 I became co-organizer of the Dublin Kubernetes Meetup group which is built around a community of 600+ members. We held our first event of 2023 at the Workday Dublin office which was a huge success with 100+ attendees. </p>
+                        <p> 🎯 I became co-organizer of the Kubernetes Dublin Meetup group which is built around a community of 700+ members. We held our first event of 2023 at the Workday Dublin office which was a huge success with 100+ attendees. </p>
                         <img className="timeline-image" src={KubernetesMeetup} alt="Dublin Kubernetes 1st Meetup of 2023"/>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> October 2023 </h3>
-                        <p> 📈 I was promoted to Software Development Engineer (P3) which is known as Mid / Career level at Workday. </p>
+                        <p> 📈 I was promoted to Software Development Engineer (Mid-Level) at Workday. </p>
                     </div>
                 </div>
             </div>
