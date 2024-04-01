@@ -19,7 +19,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> January 2020 - September 2020 </h3>
-                        <p> 👨‍💻 I completed an 8 month Quality Assurance Engineer internship at Irish Life in Dublin. I worked on a number of different test initiatives in the QA department such as API testing with SoapUI, unit testing, and test automation with Selenium. I received excellent feedback from my manager on completion of this placement. </p>
+                        <p> 👨‍💻 I completed an 8 month Quality Assurance Engineer internship at Irish Life in Dublin. I worked on a number of different test initiatives in the QA department such as API testing with SoapUI, unit testing, and test automation with Selenium. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -35,7 +35,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> June 2020 - August 2021 </h3>
-                        <p> 👨‍💻 I completed a 3 month Project Management internship at Guidewire Software in Dublin. I had the opportunity to work on a number of different BizTech initiatives and received outstanding feedback on completion of my internship from my manager. </p>
+                        <p> 👨‍💻 I completed a 3 month Project Management internship at Guidewire Software in Dublin. I had the opportunity to take on numerous tasks during my time here such as relationship management with external vendors, automating aspects of budget forecasting to increase accuracy, and the leading of requirements gathering sessions. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -51,7 +51,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> October 2021 </h3>
-                        <p> 📄 I passed the Amazon Web Services (AWS) Cloud Practitioner exam and got certified <a href="https://www.credly.com/badges/1df11e8f-763e-4e07-8cd9-32a3ab642436"> [Certificate] </a>. </p>
+                        <p> 📄 I passed the Amazon Web Services (AWS) Cloud Practitioner exam and got certified <a href="https://www.credly.com/badges/1df11e8f-763e-4e07-8cd9-32a3ab642436">[Certificate]</a>. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -59,7 +59,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> February 2022 </h3>
-                        <p> 📄 I passed the Google Cloud Platform (GCP) Associate Cloud Engineer exam and got certified <a href="https://www.credential.net/61d135ac-0e62-4f02-bb15-b11b1708e94a"> [Certificate] </a>. </p>
+                        <p> 📄 I passed the Google Cloud Platform (GCP) Associate Cloud Engineer exam and got certified <a href="https://www.credential.net/61d135ac-0e62-4f02-bb15-b11b1708e94a">[Certificate]</a>. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -91,7 +91,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> February 2023 </h3>
-                        <p> 📄 I passed the Kubernetes and Cloud Native Associate (KCNA) certification and got certified <a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/abc05936-004e-42fb-a5ed-081418ab2982-michael-walsh-f36f4d75-2885-4907-ae53-31ee4b955e83-certificate.pdf"> [Certificate] </a>. </p>
+                        <p> 📄 I passed the Kubernetes and Cloud Native Associate (KCNA) certification and got certified <a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/abc05936-004e-42fb-a5ed-081418ab2982-michael-walsh-f36f4d75-2885-4907-ae53-31ee4b955e83-certificate.pdf">[Certificate]</a>. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -99,7 +99,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> April 2023 </h3>
-                        <p> 🎯 I became co-organizer of the <a href="https://www.meetup.com/dublin-kubernetes-meetup/"> Kubernetes Dublin Meetup </a> group which is built around a community of 700+ members. We held our first event of 2023 at the Workday Dublin office which was a huge success with 100+ attendees. </p>
+                        <p> 🎯 I became co-organizer of the <a href="https://www.meetup.com/dublin-kubernetes-meetup/">Kubernetes Dublin Meetup</a> group which is built around a community of 700+ members. We held our first event of 2023 at the Workday Dublin office which was a huge success with 100+ attendees. </p>
                     </div>
                 </div>
                 {/* - */}
