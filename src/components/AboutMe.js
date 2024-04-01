@@ -1,5 +1,5 @@
 import React from "react";
-import Headshot from "../static/aboutme/headshot.png";
+import Headshot from "../static/aboutme/headshot.svg";
 
 const AboutMe = () => {
     return (
