@@ -43,7 +43,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> September 2021 </h3>
-                        <p> 👨‍💻 I started a new position at Workday as an Associate Software Development Engineer (SDE) as part of the Continuous Verification Frameworks team. This falls under the Platform and Cloud Engineering organization. </p>
+                        <p> 👨‍💻 I started a new position at Workday as an Associate Software Development Engineer (SDE) under the Platform and Cloud Engineering organization. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -108,6 +108,14 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3> October 2023 </h3>
                         <p> 📈 I was promoted to Software Development Engineer (Mid-Level) at Workday. </p>
+                    </div>
+                </div>
+                {/* - */}
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3> July 2024 </h3>
+                        <p> Our meetup group was accepted by the Cloud Native Computing Foundation (CNCF) and we became the official meetup group for Dublin, renaming to <a href="https://community.cncf.io/cloud-native-dublin/">Cloud Native Dublin</a> </p>
                     </div>
                 </div>
             </div>
