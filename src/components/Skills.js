@@ -59,7 +59,7 @@ const Skills = () => {
                         <div className="box">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="3x" /></div>
                             <h3> Databases </h3>
-                            <p> MongoDB, Redis </p>
+                            <p> MySQL, MongoDB, Redis </p>
                         </div>
                     </div>
                 </div>
