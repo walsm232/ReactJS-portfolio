@@ -11,7 +11,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> September 2017 </h3>
-                        <p> 📚 I began studying a Bachelor of Science degree (Level 8) in Enterprise Computing at Dublin City University. This was a 4 year degree which included a fantastic balance of both business and technical modules. This enabled me to develop a unique blend of technical aptitude, business savvy, and interpersonal skills. </p>
+                        <p> 📚 I began studying a Bachelor of Science degree (Level 8) in Enterprise Computing at Dublin City University. This was a 4 year degree which included a blend of both business and technical modules. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -19,7 +19,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> January 2020 - September 2020 </h3>
-                        <p> 👨‍💻 I completed an 8 month Quality Assurance Engineer internship at Irish Life in Dublin. I worked on a number of different test initiatives in the QA department such as API testing with SoapUI, unit testing, and test automation with Selenium. </p>
+                        <p> 👨‍💻 I completed an 8 month Quality Assurance Engineer internship at Irish Life in Dublin. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -35,7 +35,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> June 2020 - August 2021 </h3>
-                        <p> 👨‍💻 I completed a 3 month Project Management internship at Guidewire Software in Dublin. I had the opportunity to take on numerous tasks during my time here such as relationship management with external vendors, automating aspects of budget forecasting to increase accuracy, and the leading of requirements gathering sessions. </p>
+                        <p> 👨‍💻 I completed a 3 month Project Management internship at Guidewire Software in Dublin. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -99,7 +99,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> April 2023 </h3>
-                        <p> 🎯 I became co-organizer of the <a href="https://www.meetup.com/dublin-kubernetes-meetup/">Kubernetes Dublin Meetup</a> group which is built around a community of 700+ members. We held our first event of 2023 at the Workday Dublin office which was a huge success with 100+ attendees. </p>
+                        <p> 🎯 I became Co-Founder and Community Lead of the <a href="https://www.meetup.com/dublin-kubernetes-meetup/">Kubernetes Dublin Meetup</a> and grew the community to over 900 members. We held our first event of 2023 at the Workday Dublin office which was a huge success with 100+ attendees. </p>
                     </div>
                 </div>
                 {/* - */}
@@ -115,7 +115,23 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> July 2024 </h3>
-                        <p> 👥👥 Our meetup group was accepted by the Cloud Native Computing Foundation (CNCF) and we became the official meetup group for Dublin, renaming to <a href="https://community.cncf.io/cloud-native-dublin/">Cloud Native Dublin</a> </p>
+                        <p> 👥👥 Our meetup group was accepted by the Cloud Native Computing Foundation (CNCF) and we became the official meetup group for Dublin, rebrading as <a href="https://community.cncf.io/cloud-native-dublin/">Cloud Native Dublin</a> </p>
+                    </div>
+                </div>
+                {/* - */}
+                <div className="timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3> August 2024 </h3>
+                        <p> 👨‍🎓 I finished my Postgraduate Diploma in Cloud Computing and Software Development and graduated from University of Galway with a First Class Honours (1.1) grade. </p>
+                    </div>
+                </div>
+                {/* - */}
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3> June 2025 </h3>
+                        <p> 🇪🇸 I relocated to Málaga in Spain and joined Elastic as a Software Engineer in the Platform Engineering Productivity organization. </p>
                     </div>
                 </div>
             </div>
