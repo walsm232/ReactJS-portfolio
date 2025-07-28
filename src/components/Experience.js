@@ -115,7 +115,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> July 2024 </h3>
-                        <p> 👥👥 Our meetup group was accepted by the Cloud Native Computing Foundation (CNCF) and we became the official meetup group for Dublin, rebrading as <a href="https://community.cncf.io/cloud-native-dublin/">Cloud Native Dublin</a> </p>
+                        <p> 👥👥 Our meetup group was accepted by the Cloud Native Computing Foundation (CNCF) and we became the official meetup group for Dublin, rebranding as <a href="https://community.cncf.io/cloud-native-dublin/">Cloud Native Dublin</a> </p>
                     </div>
                 </div>
                 {/* - */}
@@ -131,7 +131,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> June 2025 </h3>
-                        <p> 🇪🇸 I relocated to Málaga in Spain and joined Elastic as a Software Engineer in the Platform Engineering Productivity organization. </p>
+                        <p> 🇪🇸 I relocated to Málaga in Spain and joined Elastic as a Software Engineer II in the Platform Engineering Productivity organization. </p>
                     </div>
                 </div>
             </div>
