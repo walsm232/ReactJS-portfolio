@@ -336,6 +336,21 @@ nav ul li {
   font-weight: 900;
 }
 
+.event {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.event-logo {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  background: white;
+  padding: 4px;
+  border-radius: 4px;
+}
+
 /**************** MEDIA ****************/
 @media(max-width: 768px) {
   .experience .container {
