@@ -4,11 +4,15 @@ import UniversityOfGalwayLogo from "../static/experience/university-of-galway.pn
 import IrishLifeLogo from "../static/experience/irish-life.png";
 import GuidewireSoftwareLogo from "../static/experience/guidewire.png";
 import AWSLogo from "../static/experience/aws.png";
-import GoogleCloudPlatformLogo from "../static/experience/google-cloud-platform.png";
+import AWSCCPLogo from "../static/experience/aws-ccp.png";
+import GCPLogo from "../static/experience/gcp.png";
+import GCPACELogo from "../static/experience/gcp-ace.png";
 import WorkdayLogo from "../static/experience/workday.png";
 import ElasticLogo from "../static/experience/elastic.png";
 import KubernetesLogo from "../static/experience/kubernetes.png";
 import CNCFLogo from "../static/experience/cncf.png";
+import CNCFKCNALogo from "../static/experience/kcna.png";
+import MeetupLogo from "../static/experience/meetup.png";
 
 const Experience = () => {
     return (
@@ -98,8 +102,8 @@ const Experience = () => {
                         <h3> October 2021 </h3>
                         <div className="event">
                             <img 
-                                src={AWSLogo}
-                                alt="Amazon Web Services (AWS) Logo" 
+                                src={AWSCCPLogo}
+                                alt="Amazon Web Services (AWS) Certified Cloud Practitioner (CCP) Badge" 
                                 className="event-logo"
                             />
                             <p> I passed the Amazon Web Services (AWS) Cloud Practitioner exam and got certified <a href="https://www.credly.com/badges/1df11e8f-763e-4e07-8cd9-32a3ab642436">[Certificate]</a>. </p>
@@ -113,8 +117,8 @@ const Experience = () => {
                         <h3> February 2022 </h3>
                         <div className="event">
                             <img 
-                                src={GoogleCloudPlatformLogo}
-                                alt="Google Cloud Platform (GCP) Logo" 
+                                src={GCPACELogo}
+                                alt="Google Cloud Platform (GCP) Associate Cloud Engineer (ACE) Logo" 
                                 className="event-logo"
                             />
                             <p> I passed the Google Cloud Platform (GCP) Associate Cloud Engineer exam and got certified <a href="https://www.credential.net/61d135ac-0e62-4f02-bb15-b11b1708e94a">[Certificate]</a>. </p>
@@ -158,8 +162,8 @@ const Experience = () => {
                         <h3> February 2023 </h3>
                         <div className="event">
                             <img 
-                                src={CNCFLogo}
-                                alt="Cloud Native Computing Foundation (CNCF) Logo" 
+                                src={CNCFKCNALogo}
+                                alt="Cloud Native Computing Foundation (CNCF) Kubernetes and Cloud Native Associate (KCNA) Logo" 
                                 className="event-logo"
                             />
                             <p> I passed the Kubernetes and Cloud Native Associate (KCNA) certification and got certified <a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/abc05936-004e-42fb-a5ed-081418ab2982-michael-walsh-f36f4d75-2885-4907-ae53-31ee4b955e83-certificate.pdf">[Certificate]</a>. </p>
@@ -173,8 +177,8 @@ const Experience = () => {
                         <h3> April 2023 </h3>
                         <div className="event">
                             <img 
-                                src={KubernetesLogo}
-                                alt="Kubernetes Logo" 
+                                src={MeetupLogo}
+                                alt="Meetup.com Logo" 
                                 className="event-logo"
                             />
                             <p> I became Co-Founder and Community Lead of the <a href="https://www.meetup.com/dublin-kubernetes-meetup/">Kubernetes Dublin Meetup</a> and grew the community to over 900 members. We held our first event of 2023 at the Workday Dublin office which was a huge success with 100+ attendees. </p>
