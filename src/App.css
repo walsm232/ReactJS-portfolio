@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 .App {
   text-align: center;
 }
@@ -36,9 +38,6 @@
     transform: rotate(360deg);
   }
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 :root {
   --primary-white: #FFFFFF;
   --primary-light-grey: #F4F4F4;
@@ -101,7 +100,7 @@ nav ul li {
 /************************************  HEADER  ******************************************/
 .header-wrapper {
   position: relative;
-  background: url(static/header/header-image.gif) no-repeat;
+  background: url(./static/header/header-image.gif) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;

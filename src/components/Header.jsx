@@ -1,12 +1,12 @@
 import React from "react";
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 
 const Header = () => {
     return (
         <div id="home" className="header-wrapper">
             <div className="main-info">
                 <h1> Michael Walsh </h1>
-                <Typed 
+                <ReactTyped 
                     className="typed-text"
                     strings={["Software Engineer", "Málaga, Spain"]}
                     typeSpeed={100}
