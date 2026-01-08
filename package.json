@@ -18,7 +18,7 @@
     "react-router-dom": "^6.28.0",
     "react-scroll": "^1.9.0",
     "react-typed": "^2.0.12",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^5.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.12",
