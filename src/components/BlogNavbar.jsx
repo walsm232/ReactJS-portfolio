@@ -5,7 +5,7 @@ import {Link as RouterLink} from 'react-router-dom';
 /* React FontAwesome Imports */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faMedium, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const BlogNavbar = () => {
@@ -29,7 +29,6 @@ const BlogNavbar = () => {
                             <a href="https://github.com/walsm232/"><FontAwesomeIcon icon={ faGithub } size="2x" style={{ color: "#FFF" }}/></a> <span className="ms-2"></span> 
                             <a href="https://www.linkedin.com/in/michael-walsh-dev/"><FontAwesomeIcon icon={ faLinkedin } size="2x" style={{ color: "#FFF" }}/></a> <span className="ms-2"></span> 
                             <a href="mailto:walshmichael310@gmail.com"><FontAwesomeIcon icon={ faEnvelope } size="2x" style={{ color: "#FFF" }}/></a> <span className="ms-2"></span> 
-                            <a href="https://michaelwalshh.medium.com/"><FontAwesomeIcon icon={ faMedium } size="2x" style={{ color: "#FFF" }}/></a> <span className="ms-2"></span>
                         </div>
                     </ul>
                 </div>
