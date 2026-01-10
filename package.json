@@ -15,19 +15,10 @@
     "emailjs-com": "^3.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-<<<<<<< HEAD
-    "react-markdown": "^10.1.0",
-    "react-router-dom": "^6.28.0",
-    "react-scroll": "^1.9.0",
-    "react-typed": "^2.0.12",
-    "remark-gfm": "^4.0.1",
-    "web-vitals": "^4.2.4"
-=======
     "react-router-dom": "^7.12.0",
     "react-scroll": "^1.9.0",
     "react-typed": "^2.0.12",
     "web-vitals": "^5.1.0"
->>>>>>> 13365149592206c1d5b881677d2f2548c48353c6
   },
   "devDependencies": {
     "@types/react": "^18.3.12",
