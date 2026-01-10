@@ -2,7 +2,9 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import SEO from './SEO';
 import { getPostBySlug } from '../posts/posts';
+import { extractDescription } from '../utils/seo';
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -10,22 +12,41 @@ const BlogPost = () => {
 
   if (!post) {
     return (
-      <div className="blog-background">
-        <div className="container py-5 mt-5">
-          <div className="row">
-            <div className="col-lg-8 mx-auto">
-              <h1>Post Not Found</h1>
-              <p>The blog post you're looking for doesn't exist.</p>
-              <Link to="/blog" className="btn btn-primary">Back to Blog</Link>
+      <>
+        <SEO 
+          title="Post Not Found - Michael Walsh"
+          description="The blog post you're looking for doesn't exist."
+          path={`/blog/${slug}`}
+        />
+        <div className="blog-background">
+          <div className="container py-5 mt-5">
+            <div className="row">
+              <div className="col-lg-8 mx-auto">
+                <h1>Post Not Found</h1>
+                <p>The blog post you're looking for doesn't exist.</p>
+                <Link to="/blog" className="btn btn-primary">Back to Blog</Link>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 
+  const description = extractDescription(post.content);
+  const publishedTime = post.date ? new Date(post.date).toISOString() : null;
+
   return (
-    <div className="blog-background">
+    <>
+      <SEO 
+        title={`${post.title} - Michael Walsh`}
+        description={description || `Read ${post.title} by Michael Walsh`}
+        path={`/blog/${post.slug}`}
+        type="article"
+        publishedTime={publishedTime}
+        modifiedTime={publishedTime}
+      />
+      <div className="blog-background">
       <div className="container py-5 mt-5">
         <div className="row">
           <div className="col-lg-8 mx-auto">
@@ -54,6 +75,7 @@ const BlogPost = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

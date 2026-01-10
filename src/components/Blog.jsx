@@ -7,7 +7,7 @@ const Blog = () => {
 
     return (
         <div id="blog" className="blog-background">
-            <div className="container py-5 mt-5">
+                <div className="container py-5 mt-5">
                 <div className="row">
                     <div className="col-lg-8 mx-auto">
                         <h1 className="blog-heading mb-5">Blog</h1>
@@ -50,7 +50,7 @@ const Blog = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Blog

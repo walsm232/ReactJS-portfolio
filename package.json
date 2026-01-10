@@ -15,6 +15,7 @@
     "emailjs-com": "^3.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
     "react-markdown": "^9.0.1",
     "react-router-dom": "^7.12.0",
     "react-scroll": "^1.9.0",
@@ -30,9 +31,10 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run generate-sitemap && vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "generate-sitemap": "node scripts/generate-sitemap.js"
   },
   "engines": {
     "node": ">=20.0.0",
