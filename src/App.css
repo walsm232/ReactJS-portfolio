@@ -625,6 +625,15 @@ textarea.form-control {
   height: auto;
   border-radius: 5px;
   margin: 1.5rem 0;
+  display: block;
+}
+
+.blog-post-content img + p {
+  text-align: center;
+  font-size: 0.9em;
+  color: var(--primary-dark-grey);
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
 }
 
 .blog-post-content table {
