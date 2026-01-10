@@ -46,6 +46,9 @@ const BlogPost = () => {
                   {post.content}
                 </ReactMarkdown>
               </div>
+              <div className="alert alert-info mt-4 mb-0" role="alert">
+                <strong>Disclaimer:</strong> The views and opinions expressed on this site are my own and do not reflect the views of my current or previous employers.
+              </div>
             </article>
           </div>
         </div>

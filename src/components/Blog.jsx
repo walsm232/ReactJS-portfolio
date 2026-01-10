@@ -11,14 +11,14 @@ const Blog = () => {
                 <div className="row">
                     <div className="col-lg-8 mx-auto">
                         <h1 className="blog-heading mb-5">Blog</h1>
+                        <div className="alert alert-info" role="alert">
+                            <strong>Disclaimer:</strong> The views and opinions expressed on this site are my own and do not reflect the views of my current or previous employers.
+                        </div>
                         {posts.length === 0 ? (
                             <p>Nothing to see here yet.</p>
                         ) : (
                             <div className="blog-list">
                                 <div className="blog-list-gradient-line"></div>
-                                <div className="alert alert-info" role="alert">
-                                    <strong>Disclaimer:</strong> The views and opinions expressed on this site are my own and do not reflect the views of my current or previous employers.
-                                </div>
                                 {posts.map((post) => (
                                     <article key={post.slug} className="blog-post-preview mb-4 pb-4 border-bottom">
                                         <h2 className="blog-post-title">
