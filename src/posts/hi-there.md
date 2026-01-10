@@ -10,7 +10,7 @@ I also co-founded the Kubernetes Dublin Meetup back in 2023, which somehow grew 
 
 ## Why am I doing this?
 
-I've been reading and learning from blog posts and articles for years, and I've found that the ones that resonate most with me are the ones that focus on real-world experiences — the practical stuff that actually works (and the things that definitely don't), the weird bugs you encounter at 2am, the "why did we do it this way?" moments, and the occasional "wait, that actually worked?" victories.
+I've been reading and learning from blog posts and articles for years, and I've found that the ones that resonate most with me are the ones that focus on real-world experiences, the practical stuff that actually works (and the things that definitely don't), the weird bugs you encounter at 2am, the "why did we do it this way?" moments, and the occasional "wait, that actually worked?" victories.
 
 I've made a lot of mistakes, learned from some of them, and I'm still learning every day. So I figure I might as well share what I've picked up along the way.
 
@@ -30,9 +30,3 @@ I'm not promising to be an expert on everything (or anything, really), but I'll 
 I'm committing to writing more in 2026. No promises on frequency. But I'll try to share things that are actually useful or at the very least mildly entertaining.
 
 If you want to chat, find me on [LinkedIn](https://www.linkedin.com/in/michael-walsh-dev/) or [GitHub](https://github.com/walsm232/).
-
----
-
-*P.S. — I use em dashes a lot in my writing now (you may have noticed). It's become a bit of a habit. Probably because I've seen so many AI-generated posts use them that I've started unconsciously copying the style. So yes, I'm aware of the irony: I use em dashes because AI does, but I swear these posts are written by an actual human.* 
-
-*The typos, questionable grammar choices, and occasional rambling should be proof enough, but just in case — here's your official disclaimer.*
