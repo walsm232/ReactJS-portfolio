@@ -30,3 +30,5 @@ I'm not promising to be an expert on everything (or anything, really), but I'll 
 I'm committing to writing more in 2026. No promises on frequency. But I'll try to share things that are actually useful or at the very least mildly entertaining.
 
 If you want to chat, find me on [LinkedIn](https://www.linkedin.com/in/michael-walsh-dev/) or [GitHub](https://github.com/walsm232/).
+
+*— Michael*
