@@ -43,7 +43,7 @@ Here's the thing: I don't know how to fix this. It's a genuinely hard problem.
 
 AI companies could implement attribution systems or revenue-sharing models, but that feels like wishful thinking. Open-source maintainers could rethink monetization strategies, but that's easier said than done when your product is suddenly commoditized by AI. Developers could choose to support projects directly (and we should!), but that's not going to scale.
 
-Maybe we need something like a "knowledge economy" where AI companies pay royalties to the open-source projects their models are trained on, similar to how music streaming works? I don't know. I'm not an economist, and I'm definitely not smart enough to figure this out on my own.
+Maybe we need something like a "knowledge economy" where AI companies pay royalties to the open-source projects their models are trained on, similar to how music streaming works? I don't know.
 
 ## The Uncomfortable Truth
 

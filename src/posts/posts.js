@@ -1,12 +1,12 @@
 import hiThere from './hi-there.md?raw';
-import tailwindAndAiDamagingOpenSource from './tailwind-and-ai-damaging-open-source.md?raw';
+import tailwindAndTheAiParadox from './tailwind-and-the-ai-paradox.md?raw';
 
 export const posts = [
   {
-    slug: 'tailwind-and-ai-damaging-open-source',
+    slug: 'tailwind-and-the-ai-paradox',
     title: 'The AI Paradox: How Artificial Intelligence is Damaging the Open-Source Ecosystem It Depends On',
     date: '2026-01-10',
-    content: tailwindAndAiDamagingOpenSource
+    content: tailwindAndTheAiParadox
   },
   {
     slug: 'hi-there',
