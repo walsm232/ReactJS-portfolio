@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import BlogNavbar from "./components/BlogNavbar"
 import Blog from "./components/Blog";
+import BlogPost from "./components/BlogPost";
 
 function App() {
   return (
@@ -27,6 +28,12 @@ function App() {
             <>
               <BlogNavbar />
               <Blog />
+            </>
+          }/>
+          <Route path="/blog/:slug" element={
+            <>
+              <BlogNavbar />
+              <BlogPost />
             </>
           }/>
         </Routes>

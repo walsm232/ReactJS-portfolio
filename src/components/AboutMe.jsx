@@ -13,11 +13,11 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="aboutme-heading"> About Me </h1>
                     <p>
-                        Hello, I'm Michael! 👋 I am a 26 year old Software Engineer originally from Ireland 🇮🇪, but now based in Spain 🇪🇸. I have been passionate about technology from a young age, having first started writing basic code at the age of 14.
+                        Hello, I'm Michael! 👋 I am a Software Engineer originally from Ireland 🇮🇪, but now based in Spain 🇪🇸. I have been passionate about technology from a young age, having first started writing basic code at the age of 14.
                     </p>
                     <hr/>
                     <p>
-                        👨‍💻 I'm currently working as a Software Engineer, with a focus on Kubernetes, developer productivity, and just about everything that encompasses the cloud-native ecosystem.
+                        👨‍💻 I'm currently working as a Software Engineer, with a focus on Kubernetes, platform engineering, and just about everything that encompasses the cloud-native ecosystem.
                     </p>
                 </div>
             </div>

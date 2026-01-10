@@ -32,7 +32,7 @@ const Skills = () => {
                         <div className="box">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faTerminal} size="3x" /></div>
                             <h3> Programming & Scripting </h3>
-                            <p> Go (Golang), Python, Java, Bash, SQL, Spring Boot </p>
+                            <p> Go, Python, Java, Bash, SQL, Spring Boot </p>
                         </div>
                     </div>
 
@@ -59,7 +59,7 @@ const Skills = () => {
                         <div className="box">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="3x" /></div>
                             <h3> Databases </h3>
-                            <p> MySQL, MongoDB, Redis </p>
+                            <p> MySQL, PostgreSQL,MongoDB, Redis </p>
                         </div>
                     </div>
                 </div>
